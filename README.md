@@ -7,7 +7,7 @@ Tested this on Gardena Sileno City, but should work on all Gardena/Husqvarna mow
 * [Install Python3 on your Domoticz server](https://www.domoticz.com/wiki/Using_Python_plugins)
 * [Install paho.mqtt to your Python libraries](http://www.steves-internet-guide.com/into-mqtt-python-client/)
 * [Create account for Gardena API and generate API Key](https://developer.husqvarnagroup.cloud/)
-* Create 3 dummy devices in Domoticz (Battery: Percentage, Connectivity: Percentage and State: Text)
+* Create 3 dummy devices in Domoticz:
   * Battery: Percentage (DOMOTICZ_MOWER_RFLINK_IDX)
   * Status: Text (DOMOTICZ_MOWER_STATUS_IDX)
   * Connectivity: Percentage (DOMOTICZ_MOWER_RFLINK_IDX)
